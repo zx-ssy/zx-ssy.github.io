@@ -16,17 +16,16 @@
   function zzjCallOneUrl(us){
     document.getElementById("zzj_fun_426s").src=us;
   }
-var timeID=0;
-var timeID1=0;
-var tt1=516;
+
+var tt1=600;
 tt2=0;
 tt3=0;
 var timeID=setInterval("hnceTimer()",1000);
 var timeID1 = setInterval("showTime()",1000)
 function showTime(){
 	var local_time = new Date();
-	var month = local_time.getMonth();
-	var day = local_time.getDay();
+	var month = (local_time.getMonth()+1);
+	var day = local_time.getDate();
 	var hour = local_time.getHours();
 	var minute = local_time.getMinutes();
 	var second = local_time.getSeconds();
@@ -67,10 +66,13 @@ function hnceTimer(){
 	  <img src="./files/AF6CB646969D402B9E6440104AEBB431.jpg" style="width:350px;border:0px;" ne="0.6324522137302109">
   </div>
   <div style="width:100%;height:7px;BACKGROUND-IMAGE: url(./files/split5.png)"></div>
+  
   <div style="width: 100%; min-height: 25px; line-height: 25px; font-size: 18px; color: rgb(5, 1, 255); font-weight: 500; font-family: 黑体;" ne="0.40032568448671935">　
-	  <span style="color: rgb(5, 1, 255);" ne="0.334875327677846"> 信息工程学院　赵显 </span>
-	  <br>　 通行信息：主校区大门北门.入口<br>　 出入身份：请假被批准的学生<br>
-	  <span style="color: rgb(214, 74, 72);" ne="0.3904317670052524">提醒：未检索到你今天的出校记录</span>
+	  <p style="margin-top: 0px; margin-bottom: 0px;">
+	  <span style="color: rgb(5, 1, 255); margin-left: auto;" ne="0.334875327677846"> 信息工程学院　赵显 </span>
+	  <br>通行信息：主校区大门北门.入口<br>出入身份：请假被批准的学生<br>
+	  <span style="color: rgb(214, 74, 72); margin-left: auto;" ne="0.3904317670052524">提醒：未检索到你今天的出校记录</span>
+	  </p>
   </div>
   <div style="width:100%;height:7px;BACKGROUND-IMAGE: url(./files/split5.png)"></div>
   <div style="width: 100%; min-height: 18px; line-height: 18px; font-size: 12px; color: rgb(191, 191, 191); text-align: center;" ne="0.24124109715457398">郑州大学疫情防控领导小组、保卫处、信息化办公室</div>  
